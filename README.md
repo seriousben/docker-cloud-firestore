@@ -14,7 +14,19 @@ The image is meant to be used for creating a standalone emulator for local devel
 
 ### Starting
 
-`docker run -p "8080:8080" -e PROJECT_ID=some-project-id seriousben/docker-cloud-firestore`
+```sh
+$ docker run -p "8080:8080" -e PROJECT_ID=some-project-id seriousben/docker-cloud-firestore
+
+Updated property [core/project].
+Executing: /google-cloud-sdk/platform/cloud-firestore-emulator/cloud_firestore_emulator start --host=0.0.0.0 --port=8080
+[firestore] API endpoint: http://0.0.0.0:8080
+[firestore] If you are using a library that supports the FIRESTORE_EMULATOR_HOST environment variable, run:
+[firestore]
+[firestore]    export FIRESTORE_EMULATOR_HOST=0.0.0.0:8080
+[firestore]
+[firestore] Dev App Server is now running.
+[firestore]
+```
 
 ### Connecting to the emulator
 
