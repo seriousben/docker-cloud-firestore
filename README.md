@@ -2,7 +2,7 @@
 
 Dockerized [Google Cloud firestore Emulator](https://cloud.google.com/sdk/gcloud/reference/beta/emulators/firestore/start/).
 
-The image is meant to be used for creating an standalone emulator for local development and testing.
+The image is meant to be used for creating a standalone emulator for local development and testing.
 
 ## Usage
 
