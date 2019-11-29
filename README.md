@@ -15,7 +15,7 @@ The image is meant to be used for creating a standalone emulator for local devel
 ### Starting
 
 ```sh
-$ docker run -p "8080:8080" -e PROJECT_ID=some-project-id seriousben/docker-cloud-firestore
+$ docker run -p "8080:8080" -e PROJECT_ID=some-project-id seriousben/cloud-firestore
 
 Updated property [core/project].
 Executing: /google-cloud-sdk/platform/cloud-firestore-emulator/cloud_firestore_emulator start --host=0.0.0.0 --port=8080
@@ -52,7 +52,7 @@ version: "3.0"
 
 services:
   firestore:
-    image: seriousben/docker-cloud-firestore
+    image: seriousben/cloud-firestore
     environment:
       - PROJECT_ID=project-test
   app:
