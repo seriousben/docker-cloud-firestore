@@ -2,7 +2,7 @@
 
 # Dockerized Google Cloud firestore Emulator
 
-[![Docker Hub](https://img.shields.io/badge/docker-seriousben/cloud-firestore)](https://hub.docker.com/repository/docker/seriousben/cloud-firestore)
+[![Docker Hub](https://img.shields.io/badge/docker-seriousben%2Fcloud--firestore-blue)](https://hub.docker.com/repository/docker/seriousben/cloud-firestore)
 
 </center>
 
