@@ -1,4 +1,10 @@
+<center>
+
 # Dockerized Google Cloud firestore Emulator
+
+[![Docker Hub](https://img.shields.io/badge/docker-seriousben/cloud-firestore)](https://hub.docker.com/repository/docker/seriousben/cloud-firestore)
+
+</center>
 
 Dockerized [Google Cloud firestore Emulator](https://cloud.google.com/sdk/gcloud/reference/beta/emulators/firestore/start/).
 
