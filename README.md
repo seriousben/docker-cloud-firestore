@@ -28,7 +28,7 @@ export FIRESTORE_EMULATOR_HOST=localhost:8080
 ```
 
 ## With Docker Compose
-    
+
 ```yaml
 version: "3.0"
 
@@ -63,3 +63,9 @@ By default, the following command is called:
 ```sh
 start-firestore
 ```
+
+## See Also
+
+Lots of parts and inspiration were taken from:
+* https://github.com/GoogleCloudPlatform/cloud-sdk-docker
+* https://github.com/perrystallings/firestore-emulator-docker
