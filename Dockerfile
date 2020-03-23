@@ -1,5 +1,5 @@
 # Use google cloud sdk
-FROM google/cloud-sdk:284.0.0-alpine
+FROM google/cloud-sdk:285.0.1-alpine
 
 # Install Java 8 for Datastore emulator
 RUN apk add --update --no-cache openjdk8-jre &&\
