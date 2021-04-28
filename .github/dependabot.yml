@@ -1,0 +1,23 @@
+version: 2
+updates:
+- package-ecosystem: docker
+  directory: "/"
+  schedule:
+    interval: weekly
+    time: "10:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: google/cloud-sdk
+    versions:
+    - 324.0.0.pre.alpine
+    - 325.0.0.pre.alpine
+    - 327.0.0.pre.alpine
+    - 328.0.0.pre.alpine
+    - 329.0.0.pre.alpine
+    - 330.0.0.pre.alpine
+    - 331.0.0.pre.alpine
+    - 332.0.0.pre.alpine
+    - 333.0.0.pre.alpine
+    - 334.0.0.pre.alpine
+    - 335.0.0.pre.alpine
+    - 336.0.0.pre.alpine
